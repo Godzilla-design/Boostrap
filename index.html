@@ -4,58 +4,59 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap website</title>
+  <title>MADDOT SKINCARES</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-black">
+  <img src="images/ChatGPT Image Jun 29, 2025, 08_39_28 PM.png" height="100" width="100">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <p class="text-white">Home</p>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="index.html">HOME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#About">
-              <p class="text-white">About</p>
-            </a>
+            <a class="nav-link active" aria-current="page" href="#ABOUT US">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#Contact">
-              <p class="text-white">Contact</p>
-            </a>
+            <a class="nav-link active" href="#SHOP/PRODUCTS">SHOP/PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#CONTACT">CONTACT</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <p class="text-white">Dropdown</p>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#Action">Action</a></li>
-              <li><a class="dropdown-item" href="Another action">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="Something else here">Something else here</a></li>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#FAQ">FAQ</a></li>
+              <li><a class="dropdown-item" href="#TESTIMONIAL">TESTIMONIAL</a></li>
+              <li><a class="dropdown-item" href="#BLOG">BLOG</a></li>
             </ul>
           </li>
-
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
-  <h1 class="p-3 mt-3 mb-3 text-center text-black">Top picks</h1>
-  <div id="carouselExampleIndicators" class="carousel slide">
+
+  <h1 class="bg-black text-white p-5 mt-5 mb-5 fs-10">Glow naturally with maddots skincare products.Skin care that
+    speaks
+    results.</h1>
+
+  <!-- carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -66,13 +67,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/image 1 (2).webp" class="d-block w-100" alt="image 1">
+        <img src="images/woman 10.webp" class="d-block w-100" alt="woman 10">
       </div>
       <div class="carousel-item">
-        <img src="images/image 2.webp" class="d-block w-100" alt="image 2">
+        <img src="images/woman 11.webp" class="d-block w-100" alt="woman 11">
       </div>
       <div class="carousel-item">
-        <img src="images/image 3.webp" class="d-block w-100" alt="image 3">
+        <img src="images/woman 12.webp" class="d-block w-100" alt="woman 12">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -87,183 +88,194 @@
     </button>
   </div>
 
+  <h1 class="text-black text-center p-5 mt-5 mb-5 fs-5 ">Maddot blends science and nature to give your skin the glow it
+    deserves</h1>
+
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <a href="http://Wa.me/+2347051435413" class="btn btn-primary btn-lg enabled" tabindex="-1" role="button"
+      aria-disabled="true">Shop now</a>
+    <a href="http://Wa.me/+2347051435413" class="btn btn-primary btn-lg enabled" tabindex="-1" role="button"
+      aria-disabled="true">Discover your routine</a>
+  </div>
+
+  <h1 id="ABOUT US" class="text-black text-center fs-10 mb-3 p-5 mt-5">ABOUT US</h1>
+  <h2 class="text-black text-center fs-10 p-1 mb-3">Meet Maddot – Your Skin's New Best Friend</h2>
+  <p class="text-black p-5 fs-5 mb-3 ">At Maddot, we believe beauty begins with healthy skin. Our products are powered
+    by nature and backed by science to
+    deliver real results. From acne solutions to deep hydration, we’re redefining skincare with honesty and care.</p>
+
   <div class="container">
-    <h1 class="text-center text-black p-5 mt-5 mb-5">Decorate with us</h1>
-    <div class="w-100 bg-black p-5 mb-5">
-      <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime enim perferendis modi,
-        adipis
-        ci ea alias, recusandae eum voluptatibus sit nemo ullam. Perferendis officia facere omnis voluptas maxime
-        laboriosam corporis maiores?</p>
-
-      <button type="button" class="btn btn-primary">Find out more</button>
-    </div>
-
-    <h2 id="About" class=" text-center text-black p-5 mb-5 mt-5">About</h2>
-
-
-    <div class="row align-item-start">
+    <div class="row">
       <div class="col">
-        <div class="card">
+        <div class="bg-dark text-white fs-5 p-3 mb-3"> maddot is an exceptional skin care product brand that gives your
+          skin a natural glow
+          with deep feeling of freshness and warmness
+        </div>
+      </div>
+      <div class="col">
+        <div class="bg-dark text-white fs-5 p-3 mb-3"> With a mix of science and natural fragrance maddots products
+          stands out exceptionally giving you a refreshed vibes of
+          nice scented aroma and creativity.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h1 id="SHOP/PRODUCTS" class="text-black text-center fs-10 mb-3 p-5 mt-5">OUR PRODUCTS</h1>
+  <!-- cards -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="images/body lotion 1.jfif" class="card-img-top" alt="body lotion 1">
           <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="http://Wa.me/+2347051435413" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text"><strong>Glow skin vitamin C serum</strong>.<br>for $9<br>
+              A potent blend of vitamin C and Hyaluronic acid that brightens and revives dull skin</p>
           </div>
         </div>
       </div>
-
 
       <div class="col">
-        <div class="card">
+        <div class="card" style="width: 18rem;">
+          <img src="images/body lotion 2.jfif" class="card-img-top" alt="body lotion 2">
           <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="http://Wa.me/+2347051435413" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text"><strong>Active hidrator with kojic acid</strong>.<br> for 12$<br>
+              An active body lotion for the removal of dark spots and blemishes </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="images/body lotion3.jfif" class="card-img-top" alt="body lotion 3">
+          <div class="card-body">
+            <p class="card-text"><strong>Vitamin E skin cleanser</strong>.<br> for 13$<br>
+              works well against acne and body discoloration.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="images/body lotion 4.jfif" class="card-img-top" alt="body lotion 4">
+          <div class="card-body">
+            <p class="card-text"><strong>Vitamin E body lotion</strong>.<br> for 11.5$<br>
+              works well against acne and body discoloration and maintains skin texture.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="images/body lotion 5.jfif" class="card-img-top" alt="body lotion 5">
+          <div class="card-body">
+            <p class="card-text"><strong>max skin glow activator</strong>.<br> for 13$<br>
+              gives your skin a sharp radiant glow.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="images/still-life-skincare-products.webp" class="card-img-top" alt="still-life-skincare">
+          <div class="card-body">
+            <p class="card-text"><strong>maddot full makeup kit</strong>.<br> for 265$<br>
+              your all in one beautifuying makeup kit.</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
+  <div class="d-grid gap-2 col-6 mx-auto mb-3 mt-3 p-3">
+    <a href="http://Wa.me/+2347051435413" class="btn btn-primary btn-lg enabled" tabindex="-1" role="button"
+      aria-disabled="true">Shop now</a>
+  </div>
 
+  <h1 id="CONTACT" class="mb-5 mt-5 p-5 text-black text-center fs-10">CONTACT US</h1>
+  <p class="text-dark text-center mb-3 p-3 fs-5"> Reach out to us</p>
 
-    <h2 id="Contact" class="p-5 mt-5 mb-5 text-center text-black">Contact us</h2>
-
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="bg-black p-5 mb-5 mt-5 text-white">
-            <h2>Choices</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam eos quia sunt incidunt.
-              Quaerat
-              eos expedita autem
-              molestiae velit. Assumenda tempora commodi a accusamus deserunt ratione magni quaerat aspernatur.</p>
-          </div>
-        </div>
-
-
-
-        <div class="col">
-          <div class="bg-black p-5 mb-5 mt-5 text-white">
-            <h2>Fees</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam eos quia sunt incidunt.
-              Quaerat
-              eos expedita autem
-              molestiae velit. Assumenda tempora commodi a accusamus deserunt ratione magni quaerat aspernatur.</p>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="bg-black p-5 mb-5 mt-5 text-white">
-            <h2>Rates</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam eos quia sunt incidunt.
-              Quaerat
-              eos expedita autem
-              molestiae velit. Assumenda tempora commodi a accusamus deserunt ratione magni quaerat aspernatur.
-            </p>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="bg-black p-5 mb-5 mt-5 text-white">
-            <h2>Discounts</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam eos quia sunt incidunt.
-              Quaerat
-              eos expedita autem
-              molestiae velit. Assumenda tempora commodi a accusamus deserunt ratione magni quaerat aspernatur.
-            </p>
-          </div>
-        </div>
+  <form>
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="First name" required aria-label="First name">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Last name" required aria-label="Last name">
       </div>
     </div>
-    <ul>
-      <li>
-        <p class="text-black fs-5 p-2 mb-2 mt-2">Email us: abcd@gmail.com</p>
-      </li>
-      <li>
-        <p class="text-black fs-5 p-2 mb-2 mt-2">Message Us now: <a href="http://Wa.me/+2347051435413">Whatsapp</a></p>
-      </li>
-    </ul>
-
-    <h2 id="Action" class="p-5 mt-5 mb-5 text-center text-black">Drop down</h2>
-
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-            aria-expanded="true" aria-controls="collapseOne">
-            Accordion Item #1
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-          data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin
-            adds the appropriate classes that we use to style each element. These classes control the overall
-            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
-            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-            <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
+    <div class="row">
+      <div class="col">
+        <input type="email" class="form-control" placeholder="Email address" required aria-label="Email address">
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Accordion Item #2
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-          data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-            plugin adds the appropriate classes that we use to style each element. These classes control the overall
-            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
-            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-            <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
+      <div class="col">
+        <input type="password" class="form-control" placeholder="Password" min="8" required aria-label="Password">
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Accordion Item #3
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-          data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
-            adds the appropriate classes that we use to style each element. These classes control the overall
-            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
-            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-            <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
-        </div>
+    </div>
+    <div class="col mb-3 mt-3">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+
+  <h1 class="mb-3 mt-5 p-5 text-center fs-8">GET CONNECTED</h1>
+
+  <div class="social-icons text-center mt-3 mb-3 p-5">
+    <a href="https://www.facebook.com/profile.php?id=61574257727909" target="_blank"><i
+        class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/godzillaforex?igsh=YXVicTZ6amI4bmhv" target="_blank"><i
+        class="fab fa-instagram"></i></a>
+    <a href="https://x.com/Nonyarigodzilla?s=35" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.tiktok.com/@godzilla_forex?_t=ZM-8vbmnwQDFy9&_r=1" target="_blank"><i
+        class="fab fa-tiktok"></i></a>
+  </div>
+
+  <h1 id="FAQ" class="text-center text-black mt-5 mb-5 p-5">FAQ</h1>
+
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          <strong> Is Maddot cruelty-free and vegan?</strong>
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"> Absolutely. Maddot is 100% cruelty-free and proudly vegan. We never test on
+          animals, and our formulas contain no animal-derived ingredients.</div>
       </div>
     </div>
 
-    <h2>
-      <div id="Another action" class="p-5 mb-5 mt-5 fs-10">Look out for more
-    </h2>
-    <div class="modal" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <p>feel free to reach out to us because we are the best in the world</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          <strong> Are Maddot products safe for sensitive skin?</strong>
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Yes! Maddot products are formulated with gentle, skin-loving ingredients that are
+          dermatologist-tested and safe for sensitive skin. We avoid harsh chemicals, artificial fragrances, and
+          parabens. </div>
       </div>
     </div>
 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          <strong> Where do you ship, and how long does delivery take?</strong>
+
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">We currently ship nationwide across Nigeria. Delivery typically takes 2–5 business
+          days, depending on your location. You’ll receive a tracking number once your order is dispatched.
+        </div>
+      </div>
+    </div>
   </div>
 
 
@@ -287,14 +299,6 @@
 
 
 
-
-
-
-
-
-
-
-  </div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"

@@ -1,0 +1,12 @@
+.social-icons a {
+    margin: 5px 5px;
+    color: #00E400;
+    font-size: 100px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #7E9F9A;
+    /* Maddot's teal shade */
+}
