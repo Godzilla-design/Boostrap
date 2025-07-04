@@ -10,3 +10,97 @@
     color: #7E9F9A;
     /* Maddot's teal shade */
 }
+
+.navbar {
+    display: inline-block;
+    list-style: none;
+    border: 0px solid #9056DE;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    background-color: #9056DE;
+    box-shadow: #490A9C 2px 2px 2px;
+}
+
+p {
+    text-decoration: solid;
+    text-transform: capitalize;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 200;
+    font-family: "space Grotesk", sans-serif;
+    color: #7934D5;
+}
+
+h1,
+h2,
+h3 {
+    color: #490A9C;
+    text-align: center;
+    font-style: normal;
+    font-family: "Space Grotesk", sans-serif;
+    cursor: pointer;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    background-color: #9056DE;
+    padding: 3px 10px 3px 10px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #490A9C;
+    transition: all 1s;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+h2:hover {
+    transform: scale(1.1);
+
+
+}
+
+.link {
+    color: white;
+    text-decoration: solid;
+    border: #490A9C solid 0px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: "Space Grotesk", sans-serif;
+    text-align: center;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    background-color: #490A9C;
+    transition: all 1s;
+
+
+}
+
+.form {
+    color: #00A800;
+}
+
+.img {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    transition: all 1s;
+    flex-wrap: wrap;
+}
+
+.img:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    color: #9056DE;
+    text-align: center;
+    font-style: italic;
+    background-color: #9056DE;
+}
+.transition{
+    transition: all 1s;
+    box-shadow: #490A9C 2px 2px 2px;
+}
+.transition:hover {
+    transform: scale(1.2);
+}
