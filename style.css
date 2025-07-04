@@ -46,18 +46,9 @@ h3 {
     margin: 20px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #490A9C;
-    transition: all 1s;
-}
-
-h1:hover {
-    transform: scale(1.1);
-}
-
-h2:hover {
-    transform: scale(1.1);
-
 
 }
+
 
 .link {
     color: white;
@@ -79,17 +70,13 @@ h2:hover {
     color: #00A800;
 }
 
-.img {
-    width: 350px;
-    height: 350px;
+img {
     margin: auto;
-    transition: all 1s;
     flex-wrap: wrap;
+    border: #9056DE solid 1px;
 }
 
-.img:hover {
-    transform: scale(1.2);
-}
+
 
 .footer {
     color: #9056DE;
@@ -97,10 +84,12 @@ h2:hover {
     font-style: italic;
     background-color: #9056DE;
 }
-.transition{
+
+.transition {
     transition: all 1s;
-    box-shadow: #490A9C 2px 2px 2px;
+    box-shadow: #490A9C 1px 1px 1px;
 }
+
 .transition:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
